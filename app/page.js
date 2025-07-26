@@ -2,7 +2,6 @@ import React from "react";
 import Stats from "./Components/Statistics/Stats";
 import RecentIssues from "./Components/RecentIssues/RecentIssues";
 import HowItWorks from "./Components/HowItWorks/HowItWorks";
-import InteractiveMapPreview from "./Components/MapPreview/InteractiveMapPreview";
 import SupportedBy from "./Components/SupportedBy/SupportedBy";
 import ImpactHighlights from "./Components/ImpactHighlights/ImpactHighlights";
 
