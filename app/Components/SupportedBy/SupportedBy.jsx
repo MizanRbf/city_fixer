@@ -16,7 +16,7 @@ const SupportedBy = () => {
 
       <Marquee
         pauseOnHover="true"
-        className="bg-[#d4d4d427] border border-gray-200 shadow-xl"
+        className="bg-gradient-to-br from-[#ffffff] to-[#070707] border border-gray-200 shadow-xl"
       >
         <Image
           src="/Marquee/marquee1.png"

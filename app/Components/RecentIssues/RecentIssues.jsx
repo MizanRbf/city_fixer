@@ -7,9 +7,6 @@ const RecentIssues = () => {
         <h1 className="text-2xl md:text-3xl font-bold text-primary">
           Recent Issues
         </h1>
-        <p className="text-gray-600 mt-2">
-          Our trusted partners and collaborators
-        </p>
       </div>
     </div>
   );

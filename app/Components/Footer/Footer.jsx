@@ -5,7 +5,7 @@ import QuickLinks from "./QuickLinks";
 
 const Footer = () => {
   return (
-    <div className="bg-secondary">
+    <div className="bg-secondary border-t-2 border-primary">
       <footer className="py-6 text-white">
         <div className="container px-6 mx-auto space-y-6  md:space-y-12">
           <div className="grid grid-cols-12">

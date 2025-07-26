@@ -52,11 +52,11 @@ const stats = [
 
 const Stats = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10 pt-10">
       {stats.map((stat, i) => (
         <div
           key={i}
-          className="bg-white shadow-md rounded-xl p-6 border border-gray-200"
+          className="bg-gradient-to-br from-[#ffffff] to-[#0f0f0f] shadow-md rounded-xl p-6 "
         >
           <div className="flex justify-between items-center mb-3">
             <div className={`text-xl p-2 rounded-full ${stat.color}`}>
@@ -64,16 +64,14 @@ const Stats = () => {
             </div>
             <span
               className={`text-sm ${
-                stat.change.includes("-") ? "text-red-500" : "text-green-500"
+                stat.change.includes("-") ? "text-[#ff1111]" : "text-[#36ff2f]"
               }`}
             >
               {stat.change}
             </span>
           </div>
-          <h3 className="text-sm font-medium text-gray-500">{stat.title}</h3>
-          <div className="text-2xl font-semibold text-gray-900">
-            {stat.value}
-          </div>
+          <h3 className="text-sm font-medium text-gray-700">{stat.title}</h3>
+          <div className="text-2xl font-semibold text-white">{stat.value}+</div>
           <div className="w-full h-2 mt-3 bg-gray-200 rounded-full">
             <div
               className={`${stat.progressColor} h-2 rounded-full`}

@@ -34,7 +34,9 @@ export default function RootLayout({ children }) {
         </header>
 
         {/* Main */}
-        <main className="bg-">{children}</main>
+        <main className="bg-gradient-to-br from-[#a7a400] to-[#000]">
+          {children}
+        </main>
 
         {/* Footer */}
         <Footer></Footer>

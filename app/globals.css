@@ -26,7 +26,7 @@ html{
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: #7a7227;
+  --color-primary: #ffe348;
   --color-secondary: #3a3610;
 }
 
