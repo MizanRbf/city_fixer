@@ -7,8 +7,8 @@ const Navbar = () => {
         <h1 className="text-white">CityFixer</h1>
         <ul className="flex gap-4 *:font-semibold text-white">
           <li>Home</li>
-          <li>About</li>
-          <li>Dashboard</li>
+          <li>Report</li>
+          <li>Issues</li>
         </ul>
         <button className="button">Login</button>
       </nav>

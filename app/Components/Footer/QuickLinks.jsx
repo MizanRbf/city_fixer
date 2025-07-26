@@ -7,27 +7,17 @@ const QuickLinks = () => {
       <ul>
         <li>
           <a rel="noopener noreferrer" href="#" className="hover:text-primary">
-            Link
+            Home
           </a>
         </li>
         <li>
           <a rel="noopener noreferrer" href="#" className="hover:text-primary">
-            Link
+            About
           </a>
         </li>
         <li>
           <a rel="noopener noreferrer" href="#" className="hover:text-primary">
-            Link
-          </a>
-        </li>
-        <li>
-          <a rel="noopener noreferrer" href="#" className="hover:text-primary">
-            Link
-          </a>
-        </li>
-        <li>
-          <a rel="noopener noreferrer" href="#" className="hover:text-primary">
-            Link
+            Dashboard
           </a>
         </li>
       </ul>
