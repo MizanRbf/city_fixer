@@ -26,8 +26,8 @@ html{
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: #005f74;
-  --color-secondary: #00252e;
+  --color-primary: #7a7227;
+  --color-secondary: #3a3610;
 }
 
 .button{
@@ -36,7 +36,7 @@ html{
 
 
 h1{
-  @apply  text-xl md:text-2xl lg:text-4xl font-bold;
+  @apply  text-xl md:text-4xl lg:text-5xl font-bold;
 }
 h2{
   @apply text-lg md:text-xl lg:text-2xl font-bold;
