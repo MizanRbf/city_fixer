@@ -66,8 +66,8 @@ const RecentIssues = () => {
     <section className="mb-30">
       <div className="">
         {/* Title */}
-        <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-primary">
+        <div className="text-center  mb-12">
+          <h1 className="text-3xl md:text-4xl font-bold text-primary mb-3 border-4 border-t-0 border-r-0 inline-block p-6">
             Recent Issues
           </h1>
         </div>
@@ -75,7 +75,7 @@ const RecentIssues = () => {
         {/* Card */}
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {fakeIssues.map((issue) => (
-            <div key={issue.id} className="bg-white rounded-lg">
+            <div key={issue.id} className="bg-[#0000005d] rounded-lg ">
               <img
                 src={issue.image}
                 alt={issue.title}
@@ -94,7 +94,7 @@ const RecentIssues = () => {
                     {issue.status}
                   </span>
                 </div>
-                <h3 className="text-lg font-semibold text-gray-800">
+                <h3 className="text-lg font-semibold text-gray-200">
                   {issue.title}
                 </h3>
               </div>
@@ -105,7 +105,7 @@ const RecentIssues = () => {
         {/* View All Button */}
         <div className="text-center mt-10">
           <Link href="/issues">
-            <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition duration-300 ease-in-out">
+            <button className="bg-secondary hover:bg-[#2c6877] text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition duration-300 ease-in-out cursor-pointer">
               View All Issues
             </button>
           </Link>

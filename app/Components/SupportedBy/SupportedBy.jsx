@@ -6,8 +6,8 @@ const SupportedBy = () => {
   return (
     <div className="pb-30 px-4 ">
       {/* Title */}
-      <div className="text-center mb-6">
-        <h1 className="text-2xl md:text-3xl font-bold text-primary">
+      <div className="text-center  mb-12">
+        <h1 className="text-3xl md:text-4xl font-bold text-primary mb-3 border-4 border-t-0 border-l-0 inline-block p-6">
           Supported By
         </h1>
       </div>

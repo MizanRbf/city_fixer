@@ -26,17 +26,17 @@ html{
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: #ffe348;
-  --color-secondary: #3a3610;
+  --color-primary: #00f7ff;
+  --color-secondary: #006366;
 }
 
 .button{
-  @apply bg-primary px-4 py-2 rounded-sm text-white font-bold cursor-pointer hover:bg-white hover:text-primary duration-500;
+  @apply bg-secondary px-4 py-2 rounded text-white font-bold cursor-pointer hover:bg-white hover:text-secondary duration-500;
 }
 
 
 h1{
-  @apply  text-xl md:text-4xl lg:text-5xl font-bold;
+  @apply  text-4xl lg:text-5xl font-bold;
 }
 h2{
   @apply text-lg md:text-xl lg:text-2xl font-bold;

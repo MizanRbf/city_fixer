@@ -20,14 +20,14 @@ const HowItWorksCard = ({ step, index }) => {
         </div>
 
         <div
-          className={`flex-1 bg-white p-6 border border-gray-200 ${
+          className={`flex-1 bg-secondary p-6 shadow-xl ${
             index % 2 === 0 ? "rounded-l-full" : "rounded-r-full"
           }`}
         >
           <div className="flex items-center space-x-4">
             {/* Icon for the step */}
             <div className="flex-shrink-0">{step.icon}</div>
-            <p className="text-gray-700 text-lg">{step.title}</p>
+            <p className="text-gray-200 text-lg">{step.title}</p>
           </div>
         </div>
       </div>

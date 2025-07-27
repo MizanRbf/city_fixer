@@ -31,9 +31,9 @@ const HowItWorks = () => {
   return (
     <div className="mb-30">
       {/* Title */}
-      <div className="text-center mb-12">
-        <h1 className="text-3xl md:text-4xl font-bold text-primary">
-          How it works
+      <div className="text-center  mb-12">
+        <h1 className="text-3xl md:text-4xl font-bold text-primary mb-3 border-4 border-t-0 border-r-0 inline-block p-6">
+          How It Works
         </h1>
       </div>
 

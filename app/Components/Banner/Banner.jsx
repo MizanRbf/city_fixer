@@ -4,12 +4,12 @@ import bannerImage from "@/public/banner.jpg";
 
 const Banner = () => {
   return (
-    <div className="bg-gradient-to-br from-[#685d01] to-[#000] ">
+    <div className="bg-gradient-to-br from-[#006366] to-[#000] ">
       <section className="max-w-[1500px] mx-auto px-4 py-4 flex flex-col md:flex-row gap-8 items-center">
         {/* Left Side - Text */}
         <div className="flex justify-center md:justify-start w-full">
           <div className="space-y-4">
-            <h1 className="text-primary">
+            <h1 className="text-[#39f8ff]">
               Fix Your City, One Report <br className="hidden md:block" /> at a
               Time
             </h1>
@@ -18,10 +18,10 @@ const Banner = () => {
               together.
             </p>
             <div>
-              <button className="bg-white rounded-sm px-4 py-1">
+              <button className="bg-secondary text-white rounded-full px-4 py-1">
                 Report an Issue
               </button>
-              <button className="bg-white rounded-sm px-4 py-1 ml-2">
+              <button className="bg-white rounded-full px-4 py-1 ml-2">
                 View Public Issues
               </button>
             </div>
