@@ -11,7 +11,7 @@ const HowItWorksCard = ({ step, index }) => {
           }`}
         >
           <span
-            className={`bg-green-500 self-start inline-block px-6 rounded text-white ${
+            className={`bg-green-500 self-start inline-block px-6  text-white ${
               index % 2 === 0 ? "mt-0" : "mt-20"
             }`}
           >
@@ -19,7 +19,11 @@ const HowItWorksCard = ({ step, index }) => {
           </span>
         </div>
 
-        <div className="flex-1 bg-white p-6 rounded border border-gray-200">
+        <div
+          className={`flex-1 bg-white p-6 border border-gray-200 ${
+            index % 2 === 0 ? "rounded-l-full" : "rounded-r-full"
+          }`}
+        >
           <div className="flex items-center space-x-4">
             {/* Icon for the step */}
             <div className="flex-shrink-0">{step.icon}</div>

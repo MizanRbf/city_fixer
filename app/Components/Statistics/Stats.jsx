@@ -52,11 +52,11 @@ const stats = [
 
 const Stats = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10 pt-10">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-30 pt-20">
       {stats.map((stat, i) => (
         <div
           key={i}
-          className="bg-gradient-to-br from-[#ffffff] to-[#0f0f0f] shadow-md rounded-xl p-6 "
+          className="bg-gradient-to-br from-[#ffffff] to-[#535353] shadow-md rounded-xl p-6 "
         >
           <div className="flex justify-between items-center mb-3">
             <div className={`text-xl p-2 rounded-full ${stat.color}`}>
