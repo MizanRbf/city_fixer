@@ -32,23 +32,23 @@ const Banner = () => {
         <div className="grid grid-cols-3 gap-4 my-10 mr-10">
           {/* First column */}
           <div className="space-y-4 md:mt-45">
-            <Image src={bannerImage} className="" />
-            <Image src={bannerImage} className="md:hidden" />
-            <Image src={bannerImage} className="md:hidden" />
+            <Image src={bannerImage} alt="Banner" className="" />
+            <Image src={bannerImage} alt="Banner" className="md:hidden" />
+            <Image src={bannerImage} alt="Banner" className="md:hidden" />
           </div>
 
           {/* Second column */}
           <div className="space-y-4 md:mt-25">
-            <Image src={bannerImage} className="" />
-            <Image src={bannerImage} className="" />
-            <Image src={bannerImage} className="md:hidden" />
+            <Image src={bannerImage} alt="Banner" className="" />
+            <Image src={bannerImage} alt="Banner" className="" />
+            <Image src={bannerImage} alt="Banner" className="md:hidden" />
           </div>
 
           {/* third column */}
           <div className="space-y-4">
-            <Image src={bannerImage} className="" />
-            <Image src={bannerImage} className="" />
-            <Image src={bannerImage} className="" />
+            <Image src={bannerImage} alt="Banner" className="" />
+            <Image src={bannerImage} alt="Banner" className="" />
+            <Image src={bannerImage} alt="Banner" className="" />
           </div>
         </div>
       </section>
