@@ -8,19 +8,21 @@ import Banner from "./Components/Banner/Banner";
 
 const HomePage = () => {
   return (
-    <div className="max-w-[1500px] mx-auto px-4">
+    <div className="">
       {/* Banner */}
       <Banner></Banner>
-      {/* Stats */}
-      <Stats></Stats>
-      {/* Recent Issues */}
-      <RecentIssues></RecentIssues>
-      {/* Impact Preview */}
-      <ImpactHighlights></ImpactHighlights>
-      {/* How It Works */}
-      <HowItWorks></HowItWorks>
-      {/* Supported By  */}
-      <SupportedBy></SupportedBy>
+      <div className="max-w-[1500px] mx-auto px-4">
+        {/* Stats */}
+        <Stats></Stats>
+        {/* Recent Issues */}
+        <RecentIssues></RecentIssues>
+        {/* Impact Preview */}
+        <ImpactHighlights></ImpactHighlights>
+        {/* How It Works */}
+        <HowItWorks></HowItWorks>
+        {/* Supported By  */}
+        <SupportedBy></SupportedBy>
+      </div>
     </div>
   );
 };

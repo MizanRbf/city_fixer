@@ -4,7 +4,7 @@ import bannerImage from "@/public/banner.jpg";
 
 const Banner = () => {
   return (
-    <div className="bg-gradient-to-br from-[#006366] to-[#000] ">
+    <div className="bg-gradient-to-br from-[#006366] to-[#000] mt-[72px]">
       <section className="max-w-[1500px] mx-auto px-4 py-4 flex flex-col md:flex-row gap-8 items-center">
         {/* Left Side - Text */}
         <div className="flex justify-center md:justify-start w-full">
