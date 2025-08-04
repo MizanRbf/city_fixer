@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const LargeMenu = () => {
   return (
     <ul className="flex gap-4 *:font-semibold text-white">

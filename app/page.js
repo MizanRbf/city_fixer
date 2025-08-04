@@ -4,10 +4,13 @@ import RecentIssues from "./Components/RecentIssues/RecentIssues";
 import HowItWorks from "./Components/HowItWorks/HowItWorks";
 import SupportedBy from "./Components/SupportedBy/SupportedBy";
 import ImpactHighlights from "./Components/ImpactHighlights/ImpactHighlights";
+import Banner from "./Components/Banner/Banner";
 
 const HomePage = () => {
   return (
     <div className="max-w-[1500px] mx-auto px-4">
+      {/* Banner */}
+      <Banner></Banner>
       {/* Stats */}
       <Stats></Stats>
       {/* Recent Issues */}
