@@ -12,6 +12,9 @@ const LargeMenu = () => {
       <li>
         <Link href={"/issues"}>Issues</Link>
       </li>
+      <li>
+        <Link href={"/dashboard"}>Dashboard</Link>
+      </li>
     </ul>
   );
 };
