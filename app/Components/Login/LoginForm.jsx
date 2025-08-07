@@ -2,6 +2,14 @@
 import React from "react";
 
 const LoginForm = () => {
+  // handle submit
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const email = form.email.value;
+    const password = form.email.value;
+    console.log(email, password);
+  };
   return (
     <div>
       <form onSubmit={handleSubmit} className="fieldset">

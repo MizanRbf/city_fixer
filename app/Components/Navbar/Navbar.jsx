@@ -1,6 +1,7 @@
 import React from "react";
 import LargeMenu from "./LargeMenu";
 import Link from "next/link";
+import LoginButton from "../LoginButton/LoginButton";
 
 const Navbar = () => {
   return (
@@ -11,9 +12,9 @@ const Navbar = () => {
         <Link href={"/register"}>
           <button className="button">Register</button>
         </Link>
-        <Link href={"/login"}>
-          <button className="button">Login</button>
-        </Link>
+
+        {/* Login Button */}
+        <LoginButton></LoginButton>
       </nav>
     </div>
   );
