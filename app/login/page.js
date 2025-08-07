@@ -1,6 +1,7 @@
 import React from "react";
 import SocialLogin from "../Components/Login/SocialLogin";
 import Link from "next/link";
+import LoginForm from "../Components/Login/LoginForm";
 
 const page = () => {
   return (
@@ -11,16 +12,8 @@ const page = () => {
             Login Your Account
           </h2>
           <div className="card-body">
-            <fieldset className="fieldset">
-              <label className="label">Email</label>
-              <input type="email" className="input" placeholder="Email" />
-              <label className="label">Password</label>
-              <input type="password" className="input" placeholder="Password" />
-              <div>
-                <a className="link link-hover">Forgot password?</a>
-              </div>
-              <button className="btn btn-neutral mt-4">Login</button>
-            </fieldset>
+            {/* Form */}
+            <LoginForm></LoginForm>
 
             {/* Divider */}
             <div className="flex items-center">
