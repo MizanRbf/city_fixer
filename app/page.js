@@ -5,10 +5,14 @@ import HowItWorks from "./Components/HowItWorks/HowItWorks";
 import SupportedBy from "./Components/SupportedBy/SupportedBy";
 import ImpactHighlights from "./Components/ImpactHighlights/ImpactHighlights";
 import Banner from "./Components/Banner/Banner";
+import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 const HomePage = () => {
   return (
     <div className="">
+      {/* Navbar */}
+      <Navbar></Navbar>
       {/* Banner */}
       <Banner></Banner>
       <div className="max-w-[1500px] mx-auto px-4">
@@ -22,6 +26,8 @@ const HomePage = () => {
         <HowItWorks></HowItWorks>
         {/* Supported By  */}
         <SupportedBy></SupportedBy>
+        {/* Footer */}
+        <Footer></Footer>
       </div>
     </div>
   );

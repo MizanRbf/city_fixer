@@ -8,6 +8,9 @@ const Navbar = () => {
       <nav className="max-w-[1800px] mx-auto px-4 py-4 flex justify-between  items-center">
         <h1 className="text-white">CityFixer</h1>
         <LargeMenu></LargeMenu>
+        <Link href={"/register"}>
+          <button className="button">Register</button>
+        </Link>
         <Link href={"/login"}>
           <button className="button">Login</button>
         </Link>
