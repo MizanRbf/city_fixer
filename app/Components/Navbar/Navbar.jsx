@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import LargeMenu from "./LargeMenu";
 import Link from "next/link";
 import LoginButton from "../LoginButton/LoginButton";
+import UserInfo from "../UserInfo/UserInfo";
 
 const Navbar = () => {
   return (
@@ -12,6 +14,7 @@ const Navbar = () => {
         <Link href={"/register"}>
           <button className="button">Register</button>
         </Link>
+        <UserInfo></UserInfo>
 
         {/* Login Button */}
         <LoginButton></LoginButton>
